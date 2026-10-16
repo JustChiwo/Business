@@ -1,21 +1,20 @@
 ﻿function About() {
   return (
-    <section id="About" className="bg-white px-6 py-20 text-slate-900 sm:px-8 lg:px-12">
+    <section
+      id="About"
+      className="bg-white px-6 py-20 text-slate-900 sm:px-8 lg:px-12"
+    >
       <div className="mx-auto max-w-6xl">
         <div className="grid items-start gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-7">
-            <div className="inline-flex items-center rounded-full border border-slate-200 bg-slate-100 px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-slate-600">
-              Web design agency
-            </div>
-
             <h2 className="text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
               We build fast, modern websites for businesses that need results.
             </h2>
 
             <p className="max-w-xl text-base leading-7 text-slate-700 sm:text-lg">
-              We help startups, local brands, and growing companies launch clean,
-              conversion-focused websites that look premium and work smoothly at a
-              price that makes sense.
+              We help startups, local brands, and growing companies launch
+              clean, conversion-focused websites that look premium and work
+              smoothly at a price that makes sense.
             </p>
 
             <div className="flex items-center gap-3">
@@ -34,7 +33,9 @@
 
             <div className="grid gap-4 sm:grid-cols-3">
               <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200">
-                <p className="text-lg font-semibold text-slate-900">Affordable</p>
+                <p className="text-lg font-semibold text-slate-900">
+                  Affordable
+                </p>
               </div>
               <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-200">
                 <p className="text-lg font-semibold text-slate-900">Fast</p>
@@ -48,13 +49,12 @@
 
         <div className="mt-12 grid items-end gap-6 lg:grid-cols-[0.82fr_1.18fr]">
           <div className="rounded-[28px] border border-slate-200 bg-slate-100 p-6 shadow-sm">
-           
             <p className="text-lg font-medium text-slate-900">
               Clean design, measurable growth, no wasted spend.
             </p>
             <p className="mt-3 text-sm leading-6 text-slate-600">
-              Your site should work harder for your business and still stay easy to
-              manage and maintain.
+              Your site should work harder for your business and still stay easy
+              to manage and maintain.
             </p>
           </div>
 
@@ -73,8 +73,8 @@
                 Websites that grow your business
               </h3>
               <p className="mt-3 max-w-xs text-sm leading-6 text-slate-200">
-                Smart design and clear messaging that help brands look stronger and
-                sell better online.
+                Smart design and clear messaging that help brands look stronger
+                and sell better online.
               </p>
             </div>
           </div>
