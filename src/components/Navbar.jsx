@@ -13,13 +13,13 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-300 transition" href="#Contact">
-            Contact
+          <a className="hover:text-gray-300 transition" href="#Services">
+            Services
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-300 transition" href="#Services">
-            Services
+          <a className="hover:text-gray-300 transition" href="#Contact">
+            Contact
           </a>
         </li>
       </ul>
