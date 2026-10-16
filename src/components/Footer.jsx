@@ -1,43 +1,44 @@
 import logo1 from "../assets/instagram.svg";
 import logo2 from "../assets/whatsapp.svg";
 import logo3 from "../assets/tiktok.svg";
+
 function Footer() {
   return (
-    <footer className="w-full bg-gray-900 text-gray-400 py-6 border-t border-gray-800">
-      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-        {/* Copyright / Brand */}
+    <footer className="w-full border-t border-slate-200 bg-slate-950 py-6 text-slate-400">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Business Name. All rights reserved.
         </p>
 
         <div className="flex items-center space-x-6">
           <a
-            href="" //whatsaap link goes here
+            href="https://wa.me/15551234567"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-white transition-colors duration-200 text-sm"
+            className="text-sm transition-colors duration-200 hover:text-white"
           >
-            <img src={logo2} alt="WhatsApp" className="w-5 h-5" />
+            <img src={logo2} alt="WhatsApp" className="h-5 w-5" />
           </a>
           <a
-            href="https://www.instagram.com/" //update insta link
+            href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-white transition-colors duration-200 text-sm"
+            className="text-sm transition-colors duration-200 hover:text-white"
           >
-            <img src={logo1} alt="Instagram" className="w-5 h-5" />
+            <img src={logo1} alt="Instagram" className="h-5 w-5" />
           </a>
           <a
-            href="https://www.tiktok.com/" //update tiktok link
+            href="https://www.tiktok.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-white transition-colors duration-200 text-sm"
+            className="text-sm transition-colors duration-200 hover:text-white"
           >
-            <img src={logo3} alt="TikTok" className="w-5 h-5" />
+            <img src={logo3} alt="TikTok" className="h-5 w-5" />
           </a>
         </div>
       </div>
     </footer>
   );
 }
+
 export default Footer;
