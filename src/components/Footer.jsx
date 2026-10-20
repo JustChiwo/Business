@@ -7,7 +7,8 @@ function Footer() {
     <footer className="w-full border-t border-slate-200 bg-slate-950 py-6 text-slate-400">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Business Name. All rights reserved.
+          &copy; {new Date().getFullYear()} Reeds Digital Solutions. All rights
+          reserved.
         </p>
 
         <div className="flex items-center space-x-6">
