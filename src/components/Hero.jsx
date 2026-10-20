@@ -5,7 +5,7 @@ function Hero() {
       className="h-[600px] flex flex-col items-center justify-center px-4 text-center"
     >
       <h1 className="mt-6 max-w-4xl text-4xl font-black tracking-tight text-slate-900 sm:text-5xl md:text-7xl">
-        Name
+        Reeds Digital Solutions
       </h1>
 
       <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
