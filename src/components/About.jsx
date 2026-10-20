@@ -8,7 +8,7 @@
         <div className="grid items-start gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-7">
             <h2 className="text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
-              We build fast, modern websites for businesses that need results.
+              Why Reeds Digital Solutions?
             </h2>
 
             <p className="max-w-xl text-base leading-7 text-slate-700 sm:text-lg">
