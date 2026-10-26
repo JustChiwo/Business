@@ -1,24 +1,24 @@
 function Navbar() {
   return (
-    <nav className="flex fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-xl h-17.5 items-center justify-center z-20 border-2 border-gray-200 backdrop-blur-md text-black shadow-[0px_4px_25px_0px_#0000000D] rounded-full transition-all max-[599px]:hidden">
-      <ul className="flex items-center gap-10">
+    <nav className="fixed left-1/2 top-4 z-20 flex h-17.5 w-[90%] max-w-xl -translate-x-1/2 items-center justify-center rounded-full border-2 border-gray-200 bg-white/70 text-black shadow-[0px_4px_25px_0px_#0000000D] backdrop-blur-md transition-all">
+      <ul className="flex items-center gap-5 text-sm sm:gap-10 sm:text-base">
         <li>
-          <a className="hover:text-gray-300 transition" href="#Home">
+          <a className="transition hover:text-gray-500" href="/#Home">
             Home
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-300 transition" href="#About">
+          <a className="transition hover:text-gray-500" href="/#About">
             About
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-300 transition" href="#Services">
+          <a className="transition hover:text-gray-500" href="/#Services">
             Services
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-300 transition" href="#Contact">
+          <a className="transition hover:text-gray-500" href="/contact">
             Contact
           </a>
         </li>

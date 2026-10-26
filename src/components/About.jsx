@@ -18,9 +18,12 @@
             </p>
 
             <div className="flex items-center gap-3">
-              <button className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-slate-700">
+              <a
+                href="/contact"
+                className="rounded-full bg-slate-900 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-slate-700"
+              >
                 Get a quote
-              </button>
+              </a>
             </div>
           </div>
 

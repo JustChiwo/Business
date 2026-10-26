@@ -13,9 +13,12 @@
               more leads.
             </p>
           </div>
-          <button className="rounded-full  w-50 bg-yellow-400 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50">
+          <a
+            href="/contact"
+            className="inline-flex w-fit items-center justify-center rounded-full bg-yellow-400 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+          >
             Contact us
-          </button>
+          </a>
         </div>
       </div>
     </section>

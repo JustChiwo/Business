@@ -15,7 +15,7 @@ function Hero() {
 
       <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
         <a
-          href="#Contact"
+          href="/contact"
           className="rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-700"
         >
           Book a free call

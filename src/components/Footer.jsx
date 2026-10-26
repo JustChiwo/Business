@@ -13,9 +13,10 @@ function Footer() {
 
         <div className="flex items-center space-x-6">
           <a
-            href="https://wa.me/15551234567"
+            href="https://wa.me/27617929961"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Chat with Reeds Digital Solutions on WhatsApp"
             className="text-sm transition-colors duration-200 hover:text-white"
           >
             <img src={logo2} alt="WhatsApp" className="h-5 w-5" />
