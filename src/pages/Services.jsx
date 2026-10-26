@@ -11,7 +11,7 @@ function Services() {
         "Social media links",
         "2 rounds of revisions",
       ],
-      price: "R2,500",
+      price: "R800 - R1,500",
     },
     {
       title: "Multipage Website",
@@ -23,7 +23,7 @@ function Services() {
         "Basic Google setup (page titles and descriptions)",
         "2 rounds of revisions",
       ],
-      price: "R4,500",
+      price: "R1,800 - R2,500",
     },
     {
       title: "Web Based Shop",
@@ -35,7 +35,7 @@ function Services() {
         "Up to 20 products added for you",
         "2 rounds of revisions",
       ],
-      price: "R8,000",
+      price: "R3,000 - R4,500",
     },
   ];
 
