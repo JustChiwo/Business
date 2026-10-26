@@ -101,7 +101,7 @@ function Services() {
             <li>Custom domain and hosting are billed separately, at cost (Free alternative is available).</li>
             <li>50% deposit to start, 50% on delivery.</li>
             <li>Changes beyond the 2 revisions are charged extra.</li>
-            <li>Monthly maintenance is available as an add-on.</li>
+            <li>1st Monthly maintenance is free, then is available as an monthly add-on.</li>
           </ul>
         </div>
       </div>
